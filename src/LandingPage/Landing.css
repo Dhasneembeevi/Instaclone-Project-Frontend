@@ -1,0 +1,33 @@
+.animation{
+    width: 300px;
+    margin: 50px;
+    margin-left: 150px;
+}
+.landing{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    border: 2px solid #006238;
+    border-radius: 10px;
+    color: #006238;
+    font-size: 1em;
+    font-weight: 700;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    width: 70px;
+    margin-left: 93px;
+    margin-top: 47px;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    color: #006238;
+    font: normal normal normal 3em Palatino;
+    margin-left: 50px;
+    margin-top: 150px;
+}

@@ -1,0 +1,29 @@
+.post-fields{
+    display: flex;
+    flex-direction: column;
+    margin-top: 147px;
+    margin-left: 30px;
+    padding: 10px;
+    align-items: center;
+   
+}
+.inputs{
+    padding: 10px;
+}
+.input-fields1, .input-fields2, .input-fields3, .input-fields4{
+    width: 300px;
+    height: 40px;
+}
+.submit{
+    border: 2px solid #006238;
+    border-radius: 10px;
+    color: #006238;
+    font-size: 1em;
+    font-weight: 700;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    width: 70px;
+    margin-right: 50px;
+    margin-top: 10px;
+}

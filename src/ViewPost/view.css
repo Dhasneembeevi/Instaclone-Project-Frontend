@@ -1,0 +1,57 @@
+.heart, .share{
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+}
+.allpost{
+    display: grid;
+    place-items: center;
+    grid-template-columns: none;
+}
+.dot{
+    font-size: xx-large;
+    font-weight: 900;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+.posts{
+    width: 401px;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+  
+    padding-inline: 2px;
+}
+.icon{
+    display: inline-flex;
+}
+.name{
+    font-size: larger;
+    margin-top: -20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.add{
+    color: rgb(57, 55, 55);
+    font-size: large;
+    margin-top: -45px;
+    margin-left: 10px;
+
+}
+.likes{
+    font-weight: 300;
+}
+.likes,.desc{
+    margin-left:10px ;
+    margin-top: 5px;
+}
+.desc{
+    margin-top: -15px;
+    font-weight: 500;
+}
