@@ -1,29 +1,60 @@
-.post-fields{
+.header {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+
+.add-post {
+    background-image: url('https://cdn.create.vista.com/api/media/small/326241768/stock-photo-abstract-background-mixed-water-oil');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin-top: 147px;
-    margin-left: 30px;
+    margin-left: 28%;
+    margin-top: 4%;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    width: 40%;
+}
+
+.post-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-fields1,
+.input-fields2,
+.input-fields3,
+.input-fields4 {
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 10px 10px;
     padding: 10px;
-    align-items: center;
-   
 }
-.inputs{
+
+.input-fields3 {
+    cursor: pointer;
+}
+
+.submit {
+    background-color: #006238;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10% 30%;
     padding: 10px;
+    transition: all 0.3s ease-in-out;
 }
-.input-fields1, .input-fields2, .input-fields3, .input-fields4{
-    width: 300px;
-    height: 40px;
-}
-.submit{
+
+.submit:hover {
+    background-color: #0da9d0;
     border: 2px solid #006238;
-    border-radius: 10px;
-    color: #006238;
-    font-size: 1em;
-    font-weight: 700;
-    height: 35px;
-    padding: 5px;
-    text-align: center;
-    width: 70px;
-    margin-right: 50px;
-    margin-top: 10px;
+    color: #eff1f0;
 }
