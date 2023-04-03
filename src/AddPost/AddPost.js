@@ -25,23 +25,26 @@ function AddPost() {
     })
   }
   return (
-    <div>
+    <div className='main'><h1 className='header'>Add Post </h1>
+    <div className='add-post'>
       <div className='post-fields'>
-        <div className='inputs'>
+        <div className='inputs1'>
           <input  className='input-fields1' placeholder='Username' value={username} onChange={(e) => setUsername(e.target.value)} />
         </div>
 
-        <div className='inputs'>
+        <div className='inputs2'>
           <input className='input-fields2' placeholder='Address' value={address} onChange={(e) => setAddress(e.target.value)} /></div>
 
-        <div className='inputs' >
+        <div className='inputs3' >
           <input className='input-fields3' type="file" onChange={(e) => setImageFile(e.target.files[0])} /></div>
 
-        <div className='inputs'>
+        <div className='inputs4'>
           <textarea className='input-fields4' placeholder='Description' value={description} onChange={(e) => setDescripition(e.target.value)} /></div>
 
         <Link to="/view" > <button onClick={uploadPost} className="submit"> POST</button></Link>
       </div>
+    </div>
+    
     </div>
   );
 }
