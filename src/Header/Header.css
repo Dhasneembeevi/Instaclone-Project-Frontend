@@ -1,29 +1,54 @@
-.land{
+.land {
     display: flex;
-    flex-direction: row;
-    width: 90%;
-    border: 1px solid black;
-    height: 120px;
-    margin-left: 50px;
-}
-.logo{
-    width: 70px;
-    height: 70px;
-    margin-top: 26px;
-    margin-left: 50px;
-}
-.cam-icon{
-    width: 110px;
-    margin-top: 16px;
-    margin-left: 570px;
- 
-}
-.head{
-    position: absolute;
-    top: 30px;
-    left: 230px;
-    font-weight: bolder;
-    font-style: oblique;
-    font-size: 70px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    justify-content: space-between;
+    
+    padding: 20px;
+    background-color: #fff;
+    border: #000 1px solid;
+  }
+  
+  .logo {
+    height: 8%;
+    width: 8%;
+    margin-left: 5%;
+  }
+  
+  .head {
+    font-style: italic;
+    font-size: 6rem;
+    font-weight: bold;
+    color: #000;
+    margin-left: 20%;
+  }
+  
+  .cam-icon {
+    height: 80%;
+    width: 25%;
+    margin-left: 70%;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .land {
+      flex-direction: column;
+      padding: 10px;
+      border: #000 1px solid;
+    }
+  
+    .head {
+      font-size: 20px;
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .logo {
+      margin: 0 auto;
+    }
+  
+    .cam-icon {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+  
+
