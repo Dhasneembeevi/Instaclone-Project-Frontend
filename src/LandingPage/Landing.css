@@ -1,13 +1,21 @@
-.animation{
-    width: 300px;
-    margin: 50px;
-    margin-left: 150px;
-}
-.landing{
+.landing {
+    background-image: url('https://cdn.create.vista.com/api/media/small/326241768/stock-photo-abstract-background-mixed-water-oil');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .animation {
+    width: 40%;
+    margin: 15%;
+    margin-left: 30%;
+  }
+  
+  .landing {
     display: flex;
     flex-direction: row;
-}
-.btn{
+  }
+  
+  .btn {
     border: 2px solid #006238;
     border-radius: 10px;
     color: #006238;
@@ -19,15 +27,46 @@
     width: 70px;
     margin-left: 93px;
     margin-top: 47px;
-
-}
-.content{
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #006238;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+  .content {
     display: flex;
     flex-direction: column;
-}
-.text{
-    color: #006238;
+    width: 50%;
+  }
+  
+  .text {
+    color: #ffffff;
     font: normal normal normal 3em Palatino;
-    margin-left: 50px;
-    margin-top: 150px;
-}
+  margin-top: 30%;
+   
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .animation {
+      width: 100%;
+      margin: 40% auto;
+    }
+  
+    .landing {
+      flex-direction: column;
+    }
+  
+    .btn {
+      margin: 20px auto 0;
+    }
+  
+    .text {
+      margin: 50px auto 0;
+      text-align: center;
+    }
+  }
+  
